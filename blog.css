@@ -1,0 +1,21 @@
+.blogpost {
+  width: 500px;
+  border: 1px solid black;
+}
+
+.blogpost-container {
+  display: flex;
+  width: 100%;
+}
+
+.flexgrow {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  align-self: center;
+}
+
+.blogpost-header {
+  width: 100%;
+  text-align: center;
+}

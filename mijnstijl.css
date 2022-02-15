@@ -1,0 +1,152 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(99, 180, 247);
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgb(163, 168, 214);
+  transition-duration: 0.4s;
+}
+
+li a .footer {
+   {
+    display: block;
+    width: 60px;
+  }
+}
+
+.vertical-menu {
+  width: 100px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: darkgray; /* Grey background color */
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  text-transform: lowercase;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #04aa6d; /* Add a green color to the "active/current" link */
+  color: white;
+}
+
+.main {
+  background-color: rgb(241, 238, 238);
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-left: 50px;
+  margin-bottom: -20px;
+  padding-bottom: 200px;
+}
+.paragraph {
+  width: 1400px;
+  font-size: 23px;
+  background-color: darkcyan;
+}
+h1 {
+  margin: 0px;
+}
+
+.footer {
+  background-color: darkgray;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 300px;
+}
+
+#footer-h3 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+}
+
+#copyright {
+  margin-top: 0px;
+  padding-top: 2px;
+  padding-bottom: 15px;
+  background-color: rgb(98, 99, 102);
+  color: white;
+  height: 30px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p a:hover {
+  color: gray;
+}
+
+p a:active {
+  color: red;
+}
+p a:visited {
+  color: white;
+}
+
+.news {
+  display: flex;
+}
+.news-item {
+  border: 1px solid black;
+  margin: 10px;
+}
+
+@media (max-width: 1024px) {
+  .main {
+    background-color: blue;
+  }
+
+  .paragraph {
+    width: 1000px;
+    font-size: 14pt;
+    background-color: darkcyan;
+  }
+}
+
+@media (max-width: 786px) {
+  .paragraph {
+    width: 500px;
+    padding: 30px;
+    background-color: burlywood;
+    font-size: 18pt;
+  }
+}
+
+@media (max-width: 500px) {
+  .paragraph {
+    width: 350px;
+    padding: 0px;
+    font-size: 20pt;
+    background-color: crimson;
+    padding: 30px;
+  }
+  .paragraph p {
+    margin: 30px;
+  }
+  .main {
+    margin: 0px;
+  }
+}

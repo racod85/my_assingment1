@@ -1,0 +1,37 @@
+.container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  color: #fff;
+}
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body {
+  background-color: #fff;
+  margin: 10px;
+}
+
+.header {
+  background-color: #ce2b25;
+  background-image: url(/Grid/header_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+.container {
+  background-color: #d0dbd6;
+}
+
+.menu {
+  background-color: rgb(135, 207, 212);
+}
+
+.footer {
+  background-color: #ce2b25;
+}

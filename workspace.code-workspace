@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "opdracht2",
+			"path": "../opdracht2"
+		},
+		{
+			"name": "opdracht3 Semantic HTML",
+			"path": "../opdracht3 Semantic HTML"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "opdracht3 Semantic HTML"
+	}
+}

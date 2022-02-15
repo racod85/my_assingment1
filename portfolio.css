@@ -1,0 +1,128 @@
+.container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto;
+  grid-gap: 3px;
+  width: 100%;
+}
+
+.header {
+  grid-column: 1/-1;
+  background-image: url(afbeeldingen/portfolio_image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+}
+
+.header_text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.portfolio_items {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 2%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
+}
+
+.navigatie {
+  grid-column: 1/1;
+}
+.content {
+  grid-column: -1/-1;
+}
+.footer {
+  grid-column: 1/ -1;
+}
+
+.menu {
+}
+.content {
+  grid-column: 1/-1;
+}
+
+.footer {
+  grid-column: 1/ -1;
+}
+
+html,
+body {
+  background-color: #ffffff;
+  margin: 10px;
+}
+
+.container > div:nth-child(1n) {
+  background-color: #96ceb4;
+}
+
+.container > div:nth-child(3n) {
+  background-color: #88d8b0;
+}
+
+.container > div:nth-child(2n) {
+  background-color: #ff6f69;
+}
+
+.container > div:nth-child(4n) {
+  background-color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(99, 180, 247);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(163, 168, 214);
+  transition-duration: 0.4s;
+}
+
+  .footer {
+    grid-column: 1/ -1;
+  }
+
+
+.footer {
+  background-color: #ce2b25;
+}
+
+
+@media (min-width: 768px) {
+    .parent {
+        grid-template-columns: 250px 1fr;
+        grid-template-rows: 1fr 200px 80px;
+        
+    
+    }
+}
+
+@media screen and (min-width: 1280px) {
+        .parent {
+        grid-template-columns: 1fr 700px 1fr;
+        grid-template-rows: 1fr 80px;
+        
+       
+    }

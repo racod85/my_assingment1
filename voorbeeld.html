@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>Sent us your favorite recipe:</h1>
+  </header>
+  <main>
+    <form name="contact" method="POST" data-netlify="true">
+      <div>
+        <label>Name</label>
+        <input type="text" name="name" required />
+        <!-- The property required in <input> is not mandatory but we wanted to show it as bonus -->
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" required />
+      </div>
+      <div>
+        <label>Phone</label>
+        <input type="tel" name="phone" />
+      </div>
+      <div>
+        <label>Age</label>
+        <input type="number" name="age" min="1" max="200" />
+      </div>
+      <div>
+        <label>Birthdate</label>
+        <input type="date" name="date" min="1900-06-10" />
+      </div>
+      <hr />
+
+      <div>
+        Gender
+        <div>
+          <label>Male</label>
+          <input type="radio" name="gender" value="male" />
+        </div>
+        <div>
+          <label>Female</label>
+          <input type="radio" name="gender" value="female" />
+        </div>
+      </div>
+      <hr />
+      <div>
+        Favorite Cuisine
+        <div>
+          <label>Italian</label>
+          <input type="checkbox" name="italian" />
+        </div>
+        <div>
+          <label>French</label>
+          <input type="checkbox" name="french" />
+        </div>
+        <div>
+          <label>Spanish</label>
+          <input type="checkbox" name="spanish" />
+        </div>
+        <div>
+          <label>Arabic</label>
+          <input type="checkbox" name="arabic" />
+        </div>
+      </div>
+      <hr />
+
+      <div>
+        <label>Favorite color of your cooking apron</label>
+        <input type="color" name="color" />
+      </div>
+
+      <hr />
+
+      <div>
+        <label>Bio</label>
+        <textarea name="bio"></textarea>
+      </div>
+      <input type="hidden" name="hidden" value="hi" />
+      <div>
+        <label>File</label>
+        <input type="file" name="file" />
+      </div>
+
+      <div>
+        <label>URL</label>
+        <input type="url" name="url" />
+      </div>
+
+      <button type="reset">Reset</button>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+</body>
+
+</html>
